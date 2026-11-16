@@ -1,0 +1,71 @@
+{
+  "target": "Price_INR_Lakhs",
+  "features": [
+    "City",
+    "Locality_Type",
+    "Property_Type",
+    "BHK",
+    "Bathrooms",
+    "Super_Area_SqFt",
+    "Carpet_Area_SqFt",
+    "Floor_Number",
+    "Total_Floors",
+    "Age_of_Property",
+    "Furnishing_Status",
+    "Parking",
+    "Lift_Available",
+    "Gated_Community",
+    "Distance_to_Metro_km",
+    "Distance_to_City_Center_km"
+  ],
+  "numeric_features": [
+    "BHK",
+    "Bathrooms",
+    "Super_Area_SqFt",
+    "Carpet_Area_SqFt",
+    "Floor_Number",
+    "Total_Floors",
+    "Age_of_Property",
+    "Parking",
+    "Lift_Available",
+    "Gated_Community",
+    "Distance_to_Metro_km",
+    "Distance_to_City_Center_km"
+  ],
+  "categorical_features": [
+    "City",
+    "Locality_Type",
+    "Property_Type",
+    "Furnishing_Status"
+  ],
+  "model_name": "Hist Gradient Boosting",
+  "metrics": {
+    "selected_model": "Hist Gradient Boosting",
+    "target_column": "Price_INR_Lakhs",
+    "target_unit_note": "INR rupees (converted from lakhs at 1 lakh = \u20b9100,000)",
+    "prediction_unit": "INR rupees",
+    "target_conversion_multiplier": 100000.0,
+    "MAE": 3284654.712013373,
+    "RMSE": 6867249.328368531,
+    "R2": 0.7869962148908509,
+    "rows_used": 80000,
+    "feature_columns": [
+      "City",
+      "Locality_Type",
+      "Property_Type",
+      "BHK",
+      "Bathrooms",
+      "Super_Area_SqFt",
+      "Carpet_Area_SqFt",
+      "Floor_Number",
+      "Total_Floors",
+      "Age_of_Property",
+      "Furnishing_Status",
+      "Parking",
+      "Lift_Available",
+      "Gated_Community",
+      "Distance_to_Metro_km",
+      "Distance_to_City_Center_km"
+    ]
+  }
+}
