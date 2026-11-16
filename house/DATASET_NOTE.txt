@@ -1,1 +1,0 @@
-Dataset file: train.csv\nTarget column: Price_INR_Lakhs\nOriginal target unit: Indian rupees in lakhs\nConversion in training: target * 100000 = INR rupees\nCurrency display: INR (₹)\nDollar conversion assumption for explicitly USD-labelled targets: $1 = ₹100 (approximate, user-requested fixed rate)\nImportant: dataset is synthetic and not actual L&T Realty transaction data.\n
